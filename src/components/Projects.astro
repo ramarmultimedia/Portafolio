@@ -1,0 +1,76 @@
+---
+const projects = [
+  {
+    title: "E-commerce Dashboard",
+    description: "Panel de administración para e-commerce con analytics en tiempo real, gestión de productos y reportes avanzados.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop&crop=entropy&auto=format&q=80",
+    tags: ["React", "Node.js", "MongoDB", "Chart.js"],
+    demo: "#"
+  },
+  {
+    title: "Task Manager App",
+    description: "Aplicación de gestión de tareas con funcionalidades avanzadas, colaboración en equipo y notificaciones.",
+    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&crop=entropy&auto=format&q=80",
+    tags: ["Astro", "TypeScript", "Tailwind"],
+    demo: "#"
+  },
+  {
+    title: "Portfolio Creative",
+    description: "Portfolio creativo con animaciones suaves, efectos visuales y diseño responsive para artistas digitales.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop&crop=entropy&auto=format&q=80",
+    tags: ["Next.js", "Framer Motion", "CSS"],
+    demo: "#"
+  }
+];
+---
+
+<section id="projects" class="py-20 bg-white dark:bg-gray-800">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+        Proyectos
+      </h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {projects.map((project, index) => (
+        <div class="bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+          <div class="relative overflow-hidden">
+            <img 
+              src={project.image} 
+              alt={project.title}
+              class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
+          
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">{project.title}</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">{project.description}</p>
+            
+            <div class="flex flex-wrap gap-2 mb-4">
+              {project.tags.map((tag) => (
+                <span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-md text-xs font-medium">
+                  {tag}
+                </span>
+              ))}
+            </div>
+            
+            <div class="flex gap-3">
+              <a 
+                href={project.demo}
+                class="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
