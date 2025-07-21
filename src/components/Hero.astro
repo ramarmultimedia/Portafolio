@@ -4,15 +4,45 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900">
   <!-- Elementos decorativos animados -->
   <div class="absolute inset-0 overflow-hidden">
-    <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/30 to-purple-400/30 rounded-full blur-3xl animate-pulse"></div>
-    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-purple-400/30 to-pink-400/30 rounded-full blur-3xl animate-pulse animation-delay-2000"></div>
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/30 to-purple-400/30 rounded-full blur-3xl animate-pulse">
+      <img src="/assets/astro.svg" alt="Decoración azul y púrpura" class="sr-only" />
+    </div>
+    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-purple-400/30 to-pink-400/30 rounded-full blur-3xl animate-pulse animation-delay-2000">
+      <img src="/assets/background.svg" alt="Decoración púrpura y rosa" class="sr-only" />
+    </div>
   </div>
 
   <!-- Contenido -->
   <div class="relative z-10 text-center text-white px-4 max-w-4xl">
     <div class="animate-fadeInUp">
+      <div class="flex justify-center gap-8 mb-10">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/jesús-andrés-ramos-martínez-15a7a4301" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn: Ver perfil profesional" class="group w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform relative">
+          <span class="absolute inset-0 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full blur opacity-25 group-hover:opacity-75 transition-all duration-300"></span>
+          <svg class="w-8 h-8 text-white relative z-10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" fill="none"/>
+            <path stroke="white" fill="white" d="M6.94 8.5a1.06 1.06 0 1 1 0-2.12 1.06 1.06 0 0 1 0 2.12zM8.5 17h-2V10h2v7zm3.5 0h-2V10h2v7zm4.5 0h-2v-3.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5V17h-2v-7h2v1.06c.41-.63 1.13-1.06 1.94-1.06 1.38 0 2.5 1.12 2.5 2.5V17z"/>
+          </svg>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/ramarmultimedia" target="_blank" rel="noopener noreferrer" aria-label="GitHub: Ver repositorios" class="group w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform relative">
+          <span class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full blur opacity-25 group-hover:opacity-75 transition-all duration-300"></span>
+          <svg class="w-8 h-8 text-white relative z-10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24">
+            <path stroke="white" fill="none" d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 7.07c.85.004 1.71.12 2.51.35 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z"/>
+          </svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://instagram.com/ramarmultimedia" target="_blank" rel="noopener noreferrer" aria-label="Instagram: Ver perfil visual" class="group w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 via-yellow-500 to-purple-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform relative">
+          <span class="absolute inset-0 bg-gradient-to-br from-pink-500 via-yellow-500 to-purple-500 rounded-full blur opacity-25 group-hover:opacity-75 transition-all duration-300"></span>
+          <svg class="w-8 h-8 text-white relative z-10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" fill="none"/>
+            <circle cx="12" cy="12" r="5" stroke="white" fill="none"/>
+            <circle cx="17.5" cy="6.5" r="1.5" stroke="white" fill="white"/>
+          </svg>
+        </a>
+      </div>
       <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
-        Hola, soy <span class="text-yellow-400">Andres</span>
+        Hola, soy <span class="bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">Andres</span>
       </h1>
       <p class="text-xl md:text-2xl mb-8 text-gray-100">
         Diseñador Visual especializado en experiencias digitales modernas
