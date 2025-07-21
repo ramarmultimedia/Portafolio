@@ -1,5 +1,5 @@
 
-![Vista previa del portafolio](./public/captura_web.png)
+![Vista previa del portafolio](./public/captura_web.jpg)
 # 🌟 Mi Portafolio Personal
 
 [![Astro](https://img.shields.io/badge/Astro-FF5A1F?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
