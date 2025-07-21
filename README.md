@@ -142,7 +142,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Ramar Multimedia**
 - 🌐 Sitio web: [Tu sitio web]
-- 💼 LinkedIn: [Tu perfil de LinkedIn](https://linkedin.com/in/jesús-andrés-ramos-martínez-15a7a4301)
+- 💼 LinkedIn: [Andres Ramos](https://linkedin.com/in/jesús-andrés-ramos-martínez-15a7a4301)
 - 🐙 GitHub: [@ramarmultimedia](https://github.com/ramarmultimedia)
 
 ## 🙏 Agradecimientos
