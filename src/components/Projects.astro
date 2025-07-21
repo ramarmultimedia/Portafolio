@@ -1,28 +1,39 @@
 ---
-import zipaquiratravel from '../assets/zipaquiratravel.jpg';
+import novavita from '../assets/novavita.jpg';
+import jardin from '../assets/jardin-botanico.jpg';
+import anla from '../assets/anla.jpg';
+import labramar from '../assets/labramar.jpg';
 
 const projects = [
   {
-    title: "E-commerce Dashboard",
-    description: "Panel de administración para e-commerce con analytics en tiempo real, gestión de productos y reportes avanzados.",
-    image: zipaquiratravel,
-    tags: ["React", "Node.js", "MongoDB", "Chart.js"],
-    demo: "#"
+    title: "Nova Vita",
+    description: "Pagina web para conocer los servicios y actividades para el cuidado integral del adulto mayor.",
+    image: novavita,
+    tags: ["WordPress","HTML", "CSS", "Fotografía"],
+    conocer: "https://www.novavita.com.co"
   },
   {
-    title: "Task Manager App",
-    description: "Aplicación de gestión de tareas con funcionalidades avanzadas, colaboración en equipo y notificaciones.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&crop=entropy&auto=format&q=80",
-    tags: ["Astro", "TypeScript", "Tailwind"],
-    demo: "#"
+    title: "Laboratorio de IA",
+    description: "Este es un proyecto adicional que solo se muestra al hacer clic en 'Ver más'.",
+    image: labramar,
+    tags: ["Wordpress", "n8n", "IA", "Automatización de flujos"],
+    conocer: "https://lab.ramarmultimedia.com",
+    hidden: true
   },
   {
-    title: "Portfolio Creative",
-    description: "Portfolio creativo con animaciones suaves, efectos visuales y diseño responsive para artistas digitales.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop&crop=entropy&auto=format&q=80",
-    tags: ["Next.js", "Framer Motion", "CSS"],
-    demo: "#"
-  }
+    title: "Jardín Botánico",
+    description: "Modelo 3D de tropicario con fotogrametría, visualización interactiva y tecnología de captura inmersiva.",
+    image: jardin,
+    tags: ["Drone", "Blender", "Modelado 3D"],
+    conocer: "https://sketchfab.com/3d-models/tropicario-fotogrametria-andres-ramos-8cd60f1c78674ef2a21ef415839092e9"
+  },
+  {
+    title: "Conoce la ANLA",
+    description: "Producción de videos institucionales para conocer la gestión ambiental de la Autoridad Nacional de Licencias Ambientales.",
+    image: anla,
+    tags: ["Davinci Resolve", "Edición de video", "Grabación de video"],
+    conocer: "https://www.youtube.com/watch?v=ArKqxXF0KUw&t=1s"
+  },
 ];
 ---
 
@@ -37,7 +48,9 @@ const projects = [
     
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project, index) => (
-        <div class="bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div
+          class="bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+        >
           <div class="relative overflow-hidden">
             <img 
               src={typeof project.image === 'string' ? project.image : project.image.src}
@@ -46,11 +59,9 @@ const projects = [
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
           </div>
-          
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">{project.title}</h3>
             <p class="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">{project.description}</p>
-            
             <div class="flex flex-wrap gap-2 mb-4">
               {project.tags.map((tag) => (
                 <span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-md text-xs font-medium">
@@ -58,21 +69,18 @@ const projects = [
                 </span>
               ))}
             </div>
-            
             <div class="flex gap-3">
               <a 
-                href={project.demo}
+                href={project.conocer}
                 class="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors"
+                target="_blank" rel="noopener noreferrer"
               >
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                 </svg>
-                Demo
+                Conocer
               </a>
             </div>
           </div>
         </div>
       ))}
-    </div>
-  </div>
-</section>
