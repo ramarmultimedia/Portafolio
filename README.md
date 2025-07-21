@@ -1,5 +1,5 @@
 
-![Vista previa del portafolio](./public/captura_web.jpg)
+![Vista previa del portafolio](./public/captura_web.jpeg)
 # 🌟 Mi Portafolio Personal
 
 [![Astro](https://img.shields.io/badge/Astro-FF5A1F?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
@@ -7,8 +7,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 Apendiendo a crear un portafolio web moderno y responsivo construido con Astro, diseñado para mostrar mis habilidades, proyectos y experiencia profesional de manera elegante y funcional.
-
-
 
 ## ✨ Características
 
