@@ -19,6 +19,8 @@ Apendiendo a crear un portafolio web moderno y responsivo construido con Astro, 
 - **[TypeScript](https://www.typescriptlang.org/)** - Tipado estático para mayor robustez
 - **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS para estilos utilitarios
 - **[Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** - Interactividad del lado del cliente
+- **[Visual Studio Code](https://code.visualstudio.com/)** - Editor de código principal con extensiones optimizadas
+- **[GitHub Copilot](https://github.com/)** - Asistente de IA para desarrollo colaborativo]
 
 ## 📁 Estructura del Proyecto
 
@@ -150,7 +152,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - [Astro Team](https://astro.build/) por este increíble framework
 - [Tailwind CSS](https://tailwindcss.com/) por el sistema de diseño
 - [Iconos de Heroicons](https://heroicons.com/) por los iconos utilizados
-- Comunidad de desarrolladores por la inspiración y retroalimentación
+- Comunidad de desarrolladores por la inspiración (Midudev)
 
 ---
 
