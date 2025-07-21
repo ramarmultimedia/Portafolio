@@ -4,16 +4,13 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-> Un portafolio web moderno y responsivo construido con Astro, diseñado para mostrar mis habilidades, proyectos y experiencia profesional de manera elegante y funcional.
+> Apendiendo a crear portafolio web moderno y responsivo construido con Astro, diseñado para mostrar mis habilidades, proyectos y experiencia profesional de manera elegante y funcional.
 
 ## ✨ Características
 
 - **⚡ Rendimiento optimizado**: Construido con Astro para una carga ultrarrápida
 - **📱 Diseño responsivo**: Se adapta perfectamente a todos los dispositivos
 - **🎨 Interfaz moderna**: Diseño limpio y profesional con animaciones suaves
-- **🔍 SEO optimizado**: Metadatos y estructura optimizados para motores de búsqueda
-- **♿ Accesible**: Cumple con las mejores prácticas de accesibilidad web
-- **🌙 Modo oscuro**: Soporte para temas claro y oscuro
 - **📄 Generación estática**: Sitio completamente estático para máximo rendimiento
 
 ## 🛠️ Tecnologías Utilizadas
@@ -145,8 +142,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Ramar Multimedia**
 - 🌐 Sitio web: [Tu sitio web]
-- 📧 Email: [tu-email@example.com]
-- 💼 LinkedIn: [Tu perfil de LinkedIn]
+- 💼 LinkedIn: [Tu perfil de LinkedIn]([www.](https://linkedin.com/in/jesús-andrés-ramos-martínez-15a7a4301)
 - 🐙 GitHub: [@ramarmultimedia](https://github.com/ramarmultimedia)
 
 ## 🙏 Agradecimientos
