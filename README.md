@@ -1,5 +1,5 @@
 
-![Vista previa del portafolio](./public/captura_web.jpeg)
+![Portfolio Desktop](https://github.com/ramarmultimedia/Portafolio/blob/master/src/assets/captura_web.jpg)
 # 🌟 Mi Portafolio Personal
 
 [![Astro](https://img.shields.io/badge/Astro-FF5A1F?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
