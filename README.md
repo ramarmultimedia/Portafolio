@@ -138,14 +138,10 @@ Las contribuciones son bienvenidas. Para contribuir:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
 ## 📞 Contacto
 
 **Ramar Multimedia**
-- 🌐 Sitio web: [Tu sitio web]
+- 🌐 Sitio web: [Tu sitio web](https://create.ramarmultimedia.com/)
 - 💼 LinkedIn: [Andres Ramos](https://linkedin.com/in/jesús-andrés-ramos-martínez-15a7a4301)
 - 🐙 GitHub: [@ramarmultimedia](https://github.com/ramarmultimedia)
 
